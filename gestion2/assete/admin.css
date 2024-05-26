@@ -1,0 +1,92 @@
+body {
+    padding: 0px 20px 0px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333; /* Text color */
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: auto;
+    min-height: 100vh;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff7f00; /* Orange color for headings */
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* Sample table style */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #ff7f00; /* Orange color for table headers */
+    color: white;
+}
+
+/* Style for icons */
+.action-icons {
+    font-size: 18px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#delete{
+    color: red;
+}
+#update{
+    color: blue;
+}
+
+/* Form styles */
+input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7f00; /* Orange color for buttons */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.names-container {
+    margin-top: 20px;
+}
+
+#nameForm {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    width: 60%;
+    background-color: #ffa94d; /* Lighter shade of orange */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #ff5733; /* Darker shade of orange */
+    margin: 0 20px;
+}

@@ -1,0 +1,94 @@
+body {
+    padding: 0px 20px 0px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Couleur de fond plus claire */
+    color: #333; /* Couleur du texte */
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: auto;
+    min-height: 100vh;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+h1 {
+    color: #8a2be2; /* Couleur violette pour les titres */
+    font-size: 28px; /* Réduire la taille du titre */
+    font-weight: 700;
+}
+
+/* Style pour le tableau */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 6px; /* Réduire le rembourrage */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #8a2be2; /* Couleur violette pour les en-têtes de tableau */
+    color: white;
+}
+
+/* Style pour les icônes */
+.action-icons {
+    font-size: 16px; /* Réduire la taille des icônes */
+    margin-right: 3px; /* Réduire l'espacement entre les icônes */
+    cursor: pointer;
+}
+#delete{
+    color: red;
+}
+#update{
+    color: blue;
+}
+
+/* Styles pour les formulaires */
+input[type="text"] {
+    width: 250px; /* Réduire la largeur des champs de texte */
+    padding: 6px; /* Réduire le rembourrage */
+    margin-bottom: 6px; /* Réduire l'espacement entre les éléments */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px; /* Réduire la taille de la police */
+}
+
+button {
+    padding: 8px 20px; /* Réduire le rembourrage */
+    border: none;
+    border-radius: 5px;
+    background-color: #800080; /* Couleur violette foncée pour le bouton */
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.names-container {
+    margin-top: 20px;
+}
+
+#nameForm {
+    display: flex;
+    flex-direction: column; /* Alignement vertical des éléments */
+    align-items: center; /* Centrer les éléments horizontalement */
+    gap: 8px; /* Réduire l'espacement entre les éléments */
+    margin: auto;
+    width: 40%; /* Réduire la largeur du formulaire */
+    background-color: #e6e6fa; /* Nuance plus claire de violet */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #4b0082; /* Couleur violette foncée pour le bouton Inscrire */
+    color: #fff;
+    margin: 0 20px;
+}
